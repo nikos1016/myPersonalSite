@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  color: #545454;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+header {
+  padding-bottom: 5rem;
+}
+
+h1 {
+  color: #55968f;
+  line-height: 2;
+  font-size: 4.5rem; /* 100% = 16px = 1em */
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* width: 20%; */
+  /* margin: 0 auto 0 auto; */
+}
+
+h2 {
+  color: #1e836c;
+  /* line-height: 2; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  font-weight: normal;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.small-header {
+  font-size: 3.0rem;
+}
+
+h3 {
+  color: #11999E;
+  font-size: 2rem;
+  /* line-height: 2; */
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+  width: 100px;
+  color: #EAE6F6;
+  border-style: dotted;
+  border-width: 10px 0 0 0;
+  margin: 90px auto 90px auto;
+}
+
+li {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+p {
+  line-height: 2;
+}
+
+/* containers */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* nav section */
+
+.myAvatar-top-img {
+  border-radius: 200%;
+  height: 100px;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  color: #45b29a;
+}
+
+/* title section */
+
+#title {
+  background-color: #E0EBE8;
+}
+
+#title .container {
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.impro {
+  padding-bottom: 40px;
+}
+
+.sun-img {
+  height: 150px;
+}
+
+.idea-img {
+  height: 100px;
+}
+
+.nikos-name-img {
+  height: 50px;
+}
+
+.goldengatebridge {
+  height: 400px;
+}
+
+.first-col {
+  position: absolute;
+  left: -5em;
+  bottom: 7em;
+  z-index: 980;
+}
+
+.second-col {
+  position: relative;
+  /* padding: 0 15px; */
+  /* width: 500px; */
+}
+
+.third-col {
+  position: absolute;
+  right: -2em;
+  top: 7.5em;
+  z-index: 980;
+}
+
+/* Profile section */
+
+#profile {
+  padding: 4em 0 0;
+  margin: 0 0 2em;
+}
+
+/* I-can-do section */
+
+.binary-code-img {
+  width: 55%;
+  float: right;
+}
+
+/* project section */
+
+.error-404-img {
+  width: 60%;
+  float: right;
+}
+
+.project-img-col {
+  padding-left: 0;
+  left: 250px;
+}
+
+#theme ul {
+  text-align: left;
+  width: 140%;
+}
+
+/* Contact section */
+
+#contact {
+  background-color: #E0EBE8;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+.footer-header {
+  padding-bottom: 20px;
+}
+
+.copyrights {
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+.email-btn {
+  background-color: #ff5959;
+  color: #000;
+}
+
+.footer-category {
+  margin-top: 45px;
+}
